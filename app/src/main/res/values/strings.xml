@@ -1,0 +1,39 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=30] -->
+    <string name="app_name">News</string>
+
+    <!-- Refresh data button text [CHAR LIMIT=20] -->
+    <string name="refresh">Refresh</string>
+
+    <!-- Search results title [CHAR LIMIT=20] -->
+    <string name="search_results">Search results</string>
+
+    <!-- Parameter passed to the intent containing the results -->
+    <string name="param_results" translatable="false">param_results</string>
+
+    <!-- JSON items to be used during search response parse process -->
+    <string name="json_response" translatable="false">response</string>
+    <string name="json_results" translatable="false">results</string>
+    <string name="json_id" translatable="false">id</string>
+    <string name="json_section_name" translatable="false">sectionName</string>
+    <string name="json_web_title" translatable="false">webTitle</string>
+    <string name="json_web_publication_date" translatable="false">webPublicationDate</string>
+    <string name="json_web_url" translatable="false">webUrl</string>
+
+    <!-- No results message [CHAR LIMIT=100] -->
+    <string name="no_results">No results found.</string>
+
+    <!-- Result fields in list_item.xml-->
+    <string name="title">Title</string>
+    <string name="section">Section</string>
+    <string name="publicaton_date">Publication date</string>
+
+    <!-- URL for searches -->
+    <string name="search_url" translatable="false">http://content.guardianapis.com/search?section=politics&amp;api-key=2f738cb6-b829-48ef-863b-da2823707257</string>
+
+
+    <!-- HttpURLConnection request parameters -->
+    <string name="param_connection_request_method" translatable="false">GET</string>
+    <string name="param_connection_request_property_1" translatable="false">Content-length</string>
+    <string name="param_connection_request_property_2" translatable="false">0</string>
+</resources>

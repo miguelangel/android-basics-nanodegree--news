@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item -->
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="8dp">
+
+    <TextView
+        android:id="@+id/publication_date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textAppearance="?android:textAppearanceListItemSmall"
+        tools:text="@string/publicaton_date" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textAppearance="?android:textAppearanceListItem"
+        android:textStyle="bold"
+        tools:text="@string/title" />
+
+    <TextView
+        android:id="@+id/section_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceListItemSecondary"
+        tools:text="@string/section" />
+</LinearLayout>
